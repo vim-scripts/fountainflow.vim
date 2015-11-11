@@ -1,0 +1,24 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5268
+
+The command :FountainFlow (or :FF) converts properly configured Fountain screenplay files into HTML compatible with LibreOffice.
+
+After conversion, tap <enter> and the HTML becomes a fully formatted screenplay in LibreOffice.
+
+Finish by loading page styles from an included template, which will start proper page numbering on page 2 of the script, while skipping over a title page and optional synopsis.
+
+Example output, Big Fish regenerated from sample Fountain file:
+https://drive.google.com/file/d/0B1MbU4xaq48DRWxPeW92bm5XV2M/view?usp=sharing
+
+All Fountain syntax supported, with just one limitation on dual dialogue (one line of dialogue per character). See http://fountain.io/syntax
+
+=============================================================
+
+There is much I need to tell you that's not in the included documentation, yet.
+
+How title page data works in Fountain Flow
+http://vimwriter.blogspot.com/2015/11/how-title-page-data-works-in-fountain.html
+
+Page numbering with Fountain Flow
+http://vimwriter.blogspot.com/2015/11/page-numbering-with-fountain-flow.html
+
+=============================================================
